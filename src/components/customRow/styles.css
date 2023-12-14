@@ -1,0 +1,14 @@
+.custom-row_row-container {
+    background-color: white;
+    transition: 0.75s;
+}
+
+.custom-row_row-container:hover {
+    background-color: #ffc842;
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+.custom-row_paragraph {
+    text-align: center;
+}

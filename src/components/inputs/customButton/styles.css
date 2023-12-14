@@ -1,0 +1,28 @@
+.custom-buttom {
+    text-align: center;
+    padding: 1rem;
+    border: none;
+    color: white;
+    font-family: 'Maison';
+    transition: 0.5s;
+    width: 100%;
+}
+
+.custom-buttom:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #000000;
+    border: solid 1px #000000;
+    transition: 0.5s;
+}
+
+.primary {
+    background-color: #ffc842;
+    border: solid 1px #ffc842;
+}
+
+.secondary {
+    background-color: transparent;
+    color: #000000;
+    border: solid 1px #000000;
+}

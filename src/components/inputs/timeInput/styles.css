@@ -1,0 +1,9 @@
+.time-input_container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.time-input_container small {
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,25 @@
+.not-found_container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-found_container_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.not-found_container_header img {
+    width: 10%;
+    margin-right: 3rem;
+}
+
+.not-found_container_header h1 {
+    font-size: 8rem;
+    margin: 0;
+}

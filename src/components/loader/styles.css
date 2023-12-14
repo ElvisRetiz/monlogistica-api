@@ -1,0 +1,35 @@
+.loader_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d5d5d5;
+    cursor: progress;
+}
+
+@keyframes breathing {
+    0% {
+        transform: scale(1.5)
+    }
+
+    50% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(1.5)
+    }
+
+}
+
+.loader_container img {
+    width: 6rem;
+    animation-name: breathing;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,23 @@
+@keyframes jingle {
+    0% {
+        background-color: #d5d5d5;
+    }
+
+    50% {
+        background-color: #f5f5f5;
+    }
+
+    100% {
+        background-color: #d5d5d5;
+    }
+}
+
+.table_loader_skeleton {
+    border-radius: 1rem;
+    width: 95%;
+    height: 0.5rem;
+    background-color: #d5d5d5;
+    animation-name: jingle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

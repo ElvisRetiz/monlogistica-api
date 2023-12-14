@@ -1,0 +1,55 @@
+.loader-sender_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999999;
+    background-color: rgba(88, 88, 88, 0.486);
+}
+
+.loader-sender_frame {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 40%;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-sender_frame_icon {
+    color: #ffc842;
+    font-size: xx-large;
+}
+
+.loader-sender_frame_button_container {
+    margin-top: 1rem;
+}
+
+.loader-sender_frame_image {
+    margin-top: 1rem;
+    height: 2rem;
+    animation-name: breathingSender;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes breathingSender {
+    0% {
+        transform: scale(1.5)
+    }
+
+    50% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(1.5)
+    }
+
+}
